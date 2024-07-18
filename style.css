@@ -104,7 +104,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     font-size: 4px;
-    width: 100%;
+    width: 95%;
 }
 
 .card{
@@ -139,8 +139,8 @@
 
 .arraivals button:hover{
     color: #F2F4F7;
-    background-color: black;
-    border: none;
+    background-color:black;
+    border: black solid 1px;
     
     
 }

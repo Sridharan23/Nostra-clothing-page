@@ -157,14 +157,14 @@
 }
 .fa-solid.fa-heart{
     position: absolute;
-    right: 10%;
+    right: 15%;
     bottom: 25%;
     cursor: pointer;
 
 }
 .sale{
     position: absolute;
-    font-size: 8px;
+    font-size: 6px;
     background-color:red;
     color:white;
     padding: 3px;
@@ -172,3 +172,77 @@
 .fa-solid.fa-heart:hover{
      color: red;
 }
+
+.limited{
+    background-color: #1D232C;
+    padding: 10px;
+    display: flex;
+}
+.limited-2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-size: 6px;
+    color: white;
+}
+.limited-2 button{
+    font-size: 7px;
+    margin-top: 5px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.limited-2 button:hover{
+ background-color: black;
+ color: white;
+
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.subscribe h2{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.subscribe p{
+    font-size: 8px;
+    margin-bottom: 10px;
+}
+
+
+ .btn{
+    display: flex;
+    justify-content: center;
+    
+    
+ }
+ .input{
+    width: 100%;
+ }
+ .btn button{
+    background-color: #1D232C;
+    padding: 5px 10px;
+    color: white;
+    margin-bottom: 20px;
+    border: none;
+ }
+ .btn button:hover{
+    background-color: red;
+ }
+
+ .footer{
+    background-color: #1D232C;
+    color: white;
+    padding: 30px;
+    font-size: 8px;
+    
+ }
+ footer h3{
+    margin-bottom:10px ;
+ }

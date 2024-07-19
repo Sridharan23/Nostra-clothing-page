@@ -1,60 +1,63 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    
+
     font-family: "Poppins", sans-serif;
 }
 
-.offer{
+.offer {
     background-color: #1D232C;
     color: white;
-    font-size:5px;
+    font-size: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 5px;
     margin-bottom: 5px;
-    
-}
-.close{
-     margin-left: 50px;
-     cursor: pointer;
-     font-weight: 900px;
+
 }
 
-.close:hover{
+.close {
+    margin-left: 50px;
+    cursor: pointer;
+    font-weight: 900px;
+}
+
+.close:hover {
     color: red;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 5px;
     position: sticky;
     top: 10;
-    
+
 }
-.navbar h1{
+
+.navbar h1 {
     font-size: 25px;
     color: #1D232C;
     margin-left: 5px
 }
-.fa-solid.fa-bars{
-   cursor: pointer;
-   margin-right: 10px;
+
+.fa-solid.fa-bars {
+    cursor: pointer;
+    margin-right: 10px;
 
 }
 
-.fa-solid.fa-bars:hover{
-    color:red;
+.fa-solid.fa-bars:hover {
+    color: red;
 }
 
-.sidenav{
+.sidenav {
     background-color: #1D232C;
     color: white;
     position: fixed;
@@ -63,266 +66,380 @@
     z-index: 10;
     top: 0;
     padding: 30px;
-     display: none;
+    display: none;
 }
-.menu li{
-    list-style-type:none;
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li {
+    list-style-type: none;
     margin-bottom: 20px;
     cursor: pointer;
-    
+
 }
-.menu li:hover{
+
+.menu li:hover {
     text-decoration: underline;
 }
 
-.close-navbar p{
-       display: flex;
-       justify-content: end;
-       cursor: pointer;
+.close-navbar p {
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
 }
 
-.slidder{
+.slidder {
     display: flex;
     flex-direction: column;
-    position:relative;
-    
+    position: relative;
+
     padding: 20px;
 
 
 }
-.left{
-   position: absolute;
-   color: white;
-   top: 40%;
-   left: 10%;
+
+.left {
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 10%;
 
 }
-.right{
+
+.right {
     position: absolute;
     color: white;
     top: 40%;
     right: 10%;
- 
- }
- .con{
-    font-size: 8px;
+
+
+}
+
+.con {
+    font-size: 12px;
     position: absolute;
     color: white;
-    left: 30%;
+    left: 23%;
     top: 30%;
     text-align: center;
- }
+}
 
- .buttonshop {
+.buttonshop {
     position: absolute;
     bottom: 20%;
     left: 40%;
     padding: 5px;
-    font-size: 8px;
- }
+    font-size: 10px;
+}
 
- .buttonshop:hover{
+.buttonshop:hover {
     color: white;
     background-color: red;
-    
- }
+
+}
 
 
-.fa-solid.fa-less-than.fa-2xl:hover{
-color:#1D232C;
+.fa-solid.fa-chevron-left:hover {
+    color: rgb(154, 154, 154);
+
 }
-.fa-solid.fa-greater-than.fa-2xl:hover {
-color:#1D232C;
+
+.fa-solid.fa-chevron-right:hover {
+    color: rgb(154, 154, 154);
 }
-.title{
+
+.title {
     margin-left: 10px;
-    
+
 }
 
-.brand{
+.brand {
     display: flex;
-    
-    
+
+
     justify-content: space-around;
     margin: 20px 5px;
     margin-bottom: 10px;
 }
-.brand-items{
+
+.brand-items {
     display: flex;
-    
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.brand-items h2{
+
+.brand-items h2 {
     margin-top: 5px;
     font-size: 5px;
 }
 
-.customer-experience{
-    
+.customer-experience {
+
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
 }
 
-.customer-experience h3{
+.customer-experience h3 {
     font-size: 8px;
     margin-left: 10px;
 }
-.customer-experience p{
+
+.customer-experience p {
     font-size: 6px;
     margin-left: 10px;
 }
 
-.cards{
-    
+.cards {
+
 
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-size: 4px;
+    font-size: 6px;
     width: 95%;
 }
 
-.card{
+.card {
     width: 18%;
     background-color: #F2F4F7;
     padding: 7px;
     border-radius: 10px;
 }
 
-.new-arraivals{
+
+.new-arraivals {
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 }
-.arraivals{
+
+.arraivals {
     padding: 10px;
     position: relative;
 }
 
-.arraivals button{
-    font-size: 4px;
+.arraivals button {
+    font-size: 6px;
     border-radius: 5px;
     padding: 3px;
     position: absolute;
-    bottom:30%;
+    bottom: 30%;
     left: 30%;
-    
-    
+
+
 
 }
 
-.arraivals button:hover{
+.arraivals button:hover {
     color: #F2F4F7;
-    background-color:black;
+    background-color: black;
     border: black solid 1px;
-    
-    
+
+
 }
 
-.most-wanted{
-     display: flex;
+.most-wanted {
+    display: flex;
 }
 
-.wanted{
+.wanted {
     padding: 10px;
     display: flex;
     flex-direction: column;
     position: relative;
 }
-.fa-solid.fa-heart{
+
+.fa-solid.fa-heart {
     position: absolute;
     right: 15%;
     bottom: 15%;
     cursor: pointer;
 
 }
-.sale{
+
+.sale {
     position: absolute;
     font-size: 6px;
-    background-color:red;
-    color:white;
+    background-color: red;
+    color: white;
     padding: 3px;
 }
-.fa-solid.fa-heart:hover{
-     color: red;
+
+.fa-solid.fa-heart:hover {
+    color: red;
 }
 
-.limited{
+.limited {
     background-color: #1D232C;
-    padding: 10px;
+    padding: 12px;
     display: flex;
+    margin-top: 10px;
+    margin: 20px;
 }
-.limited-2{
+
+.limited-2 {
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    font-size: 6px;
+    font-size: 8px;
     color: white;
+
 }
-.limited-2 button{
-    font-size: 7px;
+
+.limited-2 button {
+    font-size: 10px;
     margin-top: 5px;
     padding: 2px;
     cursor: pointer;
 }
 
-.limited-2 button:hover{
- background-color: black;
- color: white;
+.limited-2 button:hover {
+    background-color: black;
+    color: white;
 
 }
 
-.subscribe{
+.subscribe {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
 }
 
-.subscribe h2{
+.subscribe h2 {
     font-size: 16px;
     margin-bottom: 10px;
 }
-.subscribe p{
-    font-size: 8px;
+
+.subscribe p {
+    font-size: 10px;
     margin-bottom: 10px;
 }
 
 
- .btn{
+.btn {
     display: flex;
     justify-content: center;
-    
-    
- }
- .input{
-    width: 100%;
- }
- .btn button{
+
+
+}
+
+.input {
+    width: 90%;
+    padding: 10px;
+}
+
+.btn button {
     background-color: #1D232C;
     padding: 5px 10px;
     color: white;
     margin-bottom: 20px;
     border: none;
- }
- .btn button:hover{
-    background-color: red;
- }
+}
 
- .footer{
+.btn button:hover {
+    background-color: red;
+}
+
+.footer {
+    background-color: #1D232C;
+    color: white;
+    padding: 40px 30px;
+    font-size: 12px;
+
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-weight: 100;
+
+}
+
+/* contact-section */
+
+.contact {
     background-color: #1D232C;
     color: white;
     padding: 30px;
-    font-size: 8px;
-    
- }
- footer h3{
-    margin-bottom:10px ;
- }
+    border-radius: 10px;
+    margin: 10% 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input {
+    width: 100%;
+    padding: 5px;
+}
+
+.contact textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+.contact input:focus {
+    outline: none;
+}
+
+.contact textarea:hover {
+    outline: none;
+}
+
+.contact h3 {
+    font-weight: 300;
+    margin: 5px;
+}
+
+.contact-submit {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border: black solid 1px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.contact-submit:hover {
+    background-color: red;
+}
+
+/* collection-section */
+
+.col-sec {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.aside {
+    border-right: solid 3px black;
+    flex-grow: 1;
+}
+
+.col {
+    flex-grow: 3;
+
+}
+
+.col-cards{
+    display: flex;
+}
+.col-card p{
+    font-size: 10px;
+}
+.col-card h4{
+    font-size: 10px;
+}

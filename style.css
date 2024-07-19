@@ -119,7 +119,7 @@
 }
 
 .con {
-    font-size: 12px;
+    font-size: 10px;
     position: absolute;
     color: white;
     left: 23%;
@@ -132,7 +132,7 @@
     bottom: 20%;
     left: 40%;
     padding: 5px;
-    font-size: 10px;
+    font-size: 9px;
 }
 
 .buttonshop:hover {
@@ -233,7 +233,8 @@
     padding: 3px;
     position: absolute;
     bottom: 30%;
-    left: 30%;
+    left: 25%;
+    border: none;
 
 
 
@@ -258,7 +259,7 @@
     position: relative;
 }
 
-.fa-solid.fa-heart {
+.fa-regular.fa-heart {
     position: absolute;
     right: 15%;
     bottom: 15%;
@@ -274,9 +275,10 @@
     padding: 3px;
 }
 
-.fa-solid.fa-heart:hover {
+/* .fa-regular.fa-heart:hover {
     color: red;
-}
+    background-color: red;
+} */
 
 .limited {
     background-color: #1D232C;
@@ -371,13 +373,13 @@ footer h3 {
 /* contact-section */
 
 .contact {
-    width: 30%;
+    width: 50%;
     background-color: #1D232C;
     color: white;
     padding: 30px ;
     padding-right: 50px;
     border-radius: 10px;
-    margin: 10% 20%;
+    margin: 15%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

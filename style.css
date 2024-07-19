@@ -126,13 +126,13 @@
     
  }
 
-/* 
-.fa-solid.fa-less-than.fa-2xl{
 
+.fa-solid.fa-less-than.fa-2xl:hover{
+color: red;
 }
-.fa-solid.fa-greater-than.fa-2xl {
-
-} */
+.fa-solid.fa-greater-than.fa-2xl:hover {
+color: red;
+}
 .title{
     margin-left: 10px;
     

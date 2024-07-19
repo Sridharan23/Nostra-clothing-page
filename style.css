@@ -371,11 +371,14 @@ footer h3 {
 /* contact-section */
 
 .contact {
+    width: 250px;
     background-color: #1D232C;
     color: white;
-    padding: 30px;
+    padding: 30px ;
+    padding-right: 50px;
+   
     border-radius: 10px;
-    margin: 10% 20%;
+    margin: 10% 15%;
     display: flex;
     flex-direction: column;
 }
@@ -408,7 +411,7 @@ footer h3 {
     background-color: blue;
     padding: 10px;
     border: black solid 1px;
-    width: 30%;
+    width: 50%;
     cursor: pointer;
 }
 
@@ -421,25 +424,36 @@ footer h3 {
 .col-sec {
     display: flex;
     flex-direction: row;
+    margin: 10px;
 
 }
 
 .aside {
     border-right: solid 3px black;
     flex-grow: 1;
+    margin: 10px;
 }
-
+.aside h4{
+    margin-right: 10px;
+}
 .col {
     flex-grow: 3;
+    margin-top: 10px;
 
 }
 
 .col-cards{
     display: flex;
+    margin-top:  20px;
+    margin-left: 20px;
 }
 .col-card p{
     font-size: 10px;
+    width: 80%;
 }
 .col-card h4{
     font-size: 10px;
+    width: 80%;
 }
+
+

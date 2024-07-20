@@ -742,4 +742,40 @@ footer h3 {
     .sale{
         font-size: 20px;
     }
+    /* contact-section */
+.contact-main{
+    background-color: #1D232C;
+    margin: 3% 10%;
+    padding: 30px;
+    border-radius: 10px;
+}
+.contact{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.contact h3{
+    font-size: 26px;
+}
+.contact h1{
+    font-size: 40px;
+}
+.contact input{
+    height: 70px;
+    font-size: 20px;
+    max-width: 100%;
+}
+
+.contact textarea{
+    height: 150px;
+    font-size: 20px;
+    max-width: 100%;
+}
+.contact textarea:focus{
+    outline: none;
+}
+.contact-submit{
+    width: 20%;
+}
+
     }

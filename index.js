@@ -97,3 +97,16 @@ let heart8 = document.getElementById("heart8")
 heart8.addEventListener("click",function(){
    heart8.style.color="red"
 })
+
+
+let scroll = document.getElementById("scroll")
+let body = document.getElementById("body")
+
+body.addEventListener("scroll",function(){
+    scroll.style.display="block top-10"
+    
+})
+
+
+
+

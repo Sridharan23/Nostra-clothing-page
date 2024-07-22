@@ -38,3 +38,130 @@ search.addEventListener("keyup",function(){
         }
     }
 })
+
+
+let summer = document.getElementById("summer")
+
+let beach = document.getElementById("beach")
+
+let party = document.getElementById("party")
+
+let red = document.getElementById("red")
+
+let blue = document.getElementById("blue")
+
+let green = document.getElementById("green")
+
+let white = document.getElementById("white")
+
+let N = document.getElementById("N")
+
+let O = document.getElementById("O")
+
+
+let summershirt = document.getElementById("summershirt")
+let partyshirt = document.getElementById("partyshirt")
+let beachshirt = document.getElementById("beachshirt")
+let redshirt= document.getElementById("redcolor")
+let blueshirt = document.getElementById("bluecolor")
+let whiteshirt= document.getElementById("whitecolor")
+let greenshirt = document.getElementById("greencolor")
+let ns = document.getElementById("latest")
+let os = document.getElementById("oldest")
+
+summer.addEventListener("click",function(){
+    summershirt.style.display ="block"
+    redshirt.style.display ="none"
+     blueshirt.style.display ="none"
+      whiteshirt.style.display ="none"
+       greenshirt.style.display ="none"
+        ns.style.display ="none"
+         os.style.display ="none"
+         beachshirt.style.display="block"
+         partyshirt.style.display="none"
+})
+
+red.addEventListener("click",function(){
+    summershirt.style.display ="none"
+    redshirt.style.display ="block"
+     blueshirt.style.display ="none"
+      whiteshirt.style.display ="none"
+       greenshirt.style.display ="none"
+        ns.style.display ="none"
+         os.style.display ="none"
+          beachshirt.style.display="none"
+})
+
+blue.addEventListener("click",function(){
+    summershirt.style.display ="none"
+    redshirt.style.display ="none"
+     blueshirt.style.display ="block"
+      whiteshirt.style.display ="none"
+       greenshirt.style.display ="none"
+        ns.style.display ="none"
+         os.style.display ="none"
+          beachshirt.style.display="none"
+})
+white.addEventListener("click",function(){
+    summershirt.style.display ="none"
+    redshirt.style.display ="none"
+     blueshirt.style.display ="none"
+      whiteshirt.style.display ="block"
+       greenshirt.style.display ="none"
+        ns.style.display ="none"
+         os.style.display ="none"
+          beachshirt.style.display="none"
+})
+green.addEventListener("click",function(){
+    summershirt.style.display ="none"
+    redshirt.style.display ="none"
+     blueshirt.style.display ="none"
+      whiteshirt.style.display ="none"
+       greenshirt.style.display ="block"
+        ns.style.display ="none"
+         os.style.display ="none"
+          beachshirt.style.display="none"
+})
+
+party.addEventListener("click",function(){
+    summershirt.style.display ="none"
+    redshirt.style.display ="block"
+     blueshirt.style.display ="none"
+      whiteshirt.style.display ="none"
+       greenshirt.style.display ="none"
+        ns.style.display ="block"
+         os.style.display ="none"
+          beachshirt.style.display="none"
+})
+
+
+beach.addEventListener("click",function(){
+    summershirt.style.display ="none"
+    redshirt.style.display ="none"
+     blueshirt.style.display ="none"
+      whiteshirt.style.display ="none"
+       greenshirt.style.display ="none"
+        ns.style.display ="none"
+         os.style.display ="block"
+          beachshirt.style.display="block"
+})
+N.addEventListener("click",function(){
+    summershirt.style.display ="none"
+    redshirt.style.display ="none"
+     blueshirt.style.display ="none"
+      whiteshirt.style.display ="none"
+       greenshirt.style.display ="none"
+        ns.style.display ="block"
+         os.style.display ="none"
+          beachshirt.style.display="none"
+})
+O.addEventListener("click",function(){
+    summershirt.style.display ="none"
+    redshirt.style.display ="none"
+     blueshirt.style.display ="none"
+      whiteshirt.style.display ="none"
+       greenshirt.style.display ="none"
+        ns.style.display ="none"
+         os.style.display ="block"
+          beachshirt.style.display="none"
+})

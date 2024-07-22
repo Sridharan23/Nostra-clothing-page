@@ -7,6 +7,18 @@
 
 html{
     scroll-behavior: smooth;
+    
+}
+.scroll{
+opacity: 0;
+filter: blur(5px);
+transform: translateX(-100%);
+transition: all 1s;
+}
+.show{
+opacity: 1;
+filter: blur(0);
+transform: translateX(0);
 }
 
 
@@ -74,7 +86,7 @@ html{
     position: fixed;
     height: 100vh;
     width: 50%;
-    z-index: 1000;
+    z-index: 20000;
     top: 0;
     padding: 30px;
     display: none;
@@ -233,6 +245,8 @@ margin: 10px;
     margin-top: 20px;
     background-color: #1D232C;
     color: white;
+    padding: 8px;
+    margin-bottom: 20px;
 }
 
 .customer-experience h3 {
@@ -511,6 +525,10 @@ footer h3 {
     flex-grow: 1;
     margin: 10px;
 }
+
+.aside h1{
+    text-decoration: underline;
+}
 .aside h4{
     margin-right: 10px;
 }
@@ -535,10 +553,10 @@ footer h3 {
     width: 80%;
 }
 .col-search{
-    width: 60%;
-    border: black solid 2px;
-    font-size: 16px;
-    padding: 3px;
+    width: 100%;
+    border: black solid 3px;
+    font-size: 18px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -670,10 +688,17 @@ footer h3 {
 
 }
 .col-search {
-    width: 90%;
+    width: 95%;
+    border-radius: 10px;
 }
 .col-search input {
     width: 80%;
+}
+
+.aside h1{
+  font-size: 50px;
+  color:gray;
+    text-decoration: underline;
 }
 .contact{
     margin-left: 20%;
@@ -826,7 +851,8 @@ footer h3 {
     
     }
     .col-search {
-        width: 90%;
+        width: 95%;
+        border-radius: 10px;
     }
     .col-search input {
         width: 80%;

@@ -99,14 +99,28 @@ heart8.addEventListener("click",function(){
 })
 
 
-let scroll = document.getElementById("scroll")
-let body = document.getElementById("body")
+// let scroll = document.getElementById("scroll")
+// let body = document.getElementById("body")
 
-body.addEventListener("scroll",function(){
-    scroll.style.display="block top-10"
+// body.addEventListener("scroll",function(){
+//     scroll.style.display="block top-10"
     
+// })
+
+
+
+let observer = new IntersectionObserver((entries)=>{
+    entries.forEach((entry) => {
+        if (entry.isIntersecting){
+            entry.target.classList.add("show")
+            
+        }
+        else{
+            entry.target.classList.remove("show")
+        }
+    })
 })
 
 
-
-
+let hiddenElements = document.querySelectorAll(".scroll")
+hiddenElements.forEach((el) => observer.observe(el))

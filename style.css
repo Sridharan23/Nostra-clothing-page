@@ -553,7 +553,7 @@ footer h3 {
     width: 80%;
 }
 .col-search{
-    width: 100%;
+    width: 90%;
     border: black solid 3px;
     font-size: 18px;
     padding: 5px;
@@ -573,7 +573,7 @@ footer h3 {
 }
 
 .topic {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 20px;
     margin-top: 10px;
 }
@@ -582,7 +582,9 @@ footer h3 {
 .new-menu{
     display: none;
 }
-
+.k{
+    font-size: 10px;
+}
 @media screen and (min-width:700px){
 .offer{
     font-size: 25px;

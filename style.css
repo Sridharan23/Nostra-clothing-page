@@ -82,6 +82,7 @@ transform: translateX(0);
 }
 
 .sidenav {
+    transition: 10s;
     background-color: #1D232C;
     color: white;
     position: fixed;
@@ -773,7 +774,7 @@ footer h3 {
         color: brown;
     }
     .con{
-        font-size: 28px;
+        font-size: 35px;
         right: 20%;
     }
     .right{

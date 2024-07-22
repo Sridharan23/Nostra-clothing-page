@@ -10,6 +10,7 @@ let sidenav = document.querySelector(".sidenav")
 let menu = document.getElementById("menu")
 closenav.addEventListener("click",function(){
     sidenav.style.display = "none"
+    closenav.style.transition="3s"
 })
 menu.addEventListener("click",function(){
     sidenav.style.display = "block"

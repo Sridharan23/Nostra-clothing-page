@@ -82,7 +82,7 @@ transform: translateX(0);
 }
 
 .sidenav {
-    transition: 10s;
+   
     background-color: #1D232C;
     color: white;
     position: fixed;
@@ -91,8 +91,8 @@ transform: translateX(0);
     z-index: 20000;
     top: 0;
     padding: 30px;
-    display: none;
-   
+    left: -70%;
+   transition: 1.5s;
     
 }
 

@@ -9,8 +9,9 @@ let closenav = document.querySelector(".close-navbar")
 let sidenav = document.querySelector(".sidenav")
 let menu = document.getElementById("menu")
 closenav.addEventListener("click",function(){
-    sidenav.style.display = "none"
+    sidenav.style.left = "-70%"
+    
 })
 menu.addEventListener("click",function(){
-    sidenav.style.display = "block"
+    sidenav.style.left = "0"
 })

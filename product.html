@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nostra product page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+      <!-- Heading and menu section -->
+  <section>
+    <div class="flex justify-between items-center m-5">
+      <h1 style="color: #1d232c;" class="font-bold text-3xl">Nostra</h1>
+      <i class="fa-solid fa-bars font-bold text-2xl cursor-pointer"></i>
+    </div>
+
+  </section>
+
+
+
+  <!-- subscribe section -->
+  <section>
+    <div class="flex flex-col items-center justify-center gap-3 mb-2 ">
+      <h1 class="font-bold">
+        Join our News Letter
+      </h1>
+      <p class="text-xs ml-3">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+      <input type="text" placeholder="Type here" required class="input">
+      <button class="bg-black text-white p-2 rounded-xl mb-5  hover:bg-red-700">Subscribe</button>
+    </div>
+  </section>
+      <!-- footer -->
+  <footer style="background-color: #1d232c; color: white " class="p-10 ">
+    <div class="flex flex-col gap-2">
+      <h1>Nostra</h1>
+      <p class="text-xs">The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest
+      </p>
+      <p class="text-xs">@ 2023 Nostra.com</p>
+      <div class="flex ">
+        <i class="fa-brands fa-instagram ml-10"></i>
+        <i class="fa-brands fa-twitter  ml-10"></i>
+        <i class="fa-brands fa-facebook ml-10"></i>
+      </div>
+
+      <p class="text-xs ">&copy;Nostra 2024</p>
+    </div>
+
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
